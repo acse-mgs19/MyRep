@@ -1,0 +1,119 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Anonymous/Desktop/comb_lock/simulation/qsim
+vclkDev
+Z1 !s110 1510313777
+!i10b 1
+!s100 >NQ;WQNJ3icYY[ZDj:eA71
+IU_1ek;:g=BoZNS>5>73aC3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1510313776
+Z4 8cLock.vo
+Z5 FcLock.vo
+Z6 L0 32
+Z7 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z8 !s108 1510313777.000000
+Z9 !s107 cLock.vo|
+Z10 !s90 -work|work|cLock.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+nclk@dev
+vclkDev_vlg_vec_tst
+R1
+!i10b 1
+!s100 0_5;B[ee[Xe<7oX_lYA7z3
+IhejeJ48cdCj5e`e2ehOQ=0
+R2
+R0
+w1510313775
+8Waveform2.vwf.vt
+FWaveform2.vwf.vt
+Z13 L0 30
+R7
+r1
+!s85 0
+31
+R8
+!s107 Waveform2.vwf.vt|
+!s90 -work|work|Waveform2.vwf.vt|
+!i113 1
+R11
+R12
+nclk@dev_vlg_vec_tst
+vcLock
+Z14 !s110 1510311593
+!i10b 1
+!s100 TKoVePRXPIaCI^[gkdcV:2
+I<>zJ0>EF^iM]iT8>Dc_5A3
+R2
+R0
+w1510311591
+R4
+R5
+R6
+R7
+r1
+!s85 0
+31
+Z15 !s108 1510311593.000000
+R9
+R10
+!i113 1
+R11
+R12
+nc@lock
+vcLock_vlg_vec_tst
+R14
+!i10b 1
+!s100 1;7Ej0QDGR=]ITWG@@9OI2
+I>Z8]Do<bLjoXJ>djfKPFJ1
+R2
+R0
+w1510311590
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+R13
+R7
+r1
+!s85 0
+31
+R15
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R11
+R12
+nc@lock_vlg_vec_tst
+vhard_block
+R1
+!i10b 1
+!s100 dL0@8X;BbAH[lSOmg?W9B3
+Iao;kf?G3>2?`hHXRiFeD`3
+R2
+R0
+R3
+R4
+R5
+L0 951
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12

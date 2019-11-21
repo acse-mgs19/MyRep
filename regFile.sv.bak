@@ -1,0 +1,4 @@
+	module regFile ( input logic clk,RegWr,
+                    input logic [4:0] wrAddr,rdAddrA,rdAddrB,
+                    input logic [7:0] wrData,
+                   output logic [7:0] rdDataA,rdDataB );

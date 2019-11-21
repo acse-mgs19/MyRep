@@ -1,0 +1,107 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+*/
+(header "graphic" (version "1.4"))
+(symbol
+	(rect 432 168 528 296)
+	(text "cLock" (rect 5 0 38 19)(font "Intel Clear" (font_size 8)))
+	(text "inst" (rect 8 107 24 124)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "reset" (rect 0 0 24 12)(font "Arial" ))
+		(text "reset" (rect 21 27 45 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "clock" (rect 0 0 25 12)(font "Arial" ))
+		(text "clock" (rect 21 43 46 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "C" (rect 0 0 8 12)(font "Arial" ))
+		(text "C" (rect 21 59 29 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "Enter" (rect 0 0 25 12)(font "Arial" ))
+		(text "Enter" (rect 21 75 46 87)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "Max" (rect 0 0 20 12)(font "Arial" ))
+		(text "Max" (rect 21 91 41 103)(font "Arial" ))
+		(line (pt 0 96)(pt 16 96))
+	)
+	(port
+		(pt 96 32)
+		(output)
+		(text "Rst" (rect 0 0 17 12)(font "Arial" ))
+		(text "Rst" (rect 58 27 75 39)(font "Arial" ))
+		(line (pt 96 32)(pt 80 32))
+	)
+	(port
+		(pt 96 48)
+		(output)
+		(text "Corr" (rect 0 0 21 12)(font "Arial" ))
+		(text "Corr" (rect 54 43 75 55)(font "Arial" ))
+		(line (pt 96 48)(pt 80 48))
+	)
+	(port
+		(pt 96 64)
+		(output)
+		(text "Err" (rect 0 0 14 12)(font "Arial" ))
+		(text "Err" (rect 61 59 75 71)(font "Arial" ))
+		(line (pt 96 64)(pt 80 64))
+	)
+	(parameter
+		"corr0_err0_2"
+		"0"
+		""
+	)
+	(parameter
+		"corr0_err1"
+		"1"
+		""
+	)
+	(parameter
+		"corr0_err0"
+		"2"
+		""
+	)
+	(parameter
+		"corr1_err0"
+		"3"
+		""
+	)
+	(drawing
+		(rectangle (rect 16 16 80 112))
+	)
+	(annotation_block (parameter)(rect 528 72 664 168))
+)

@@ -1,0 +1,101 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'clk'
+Slack : -4.818
+TNS   : -157.193
+
+Type  : Slow 1100mV 85C Model Setup 'clkDev:inst7|q[10]'
+Slack : -2.314
+TNS   : -38.985
+
+Type  : Slow 1100mV 85C Model Hold 'clk'
+Slack : 0.377
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'clkDev:inst7|q[10]'
+Slack : 0.840
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clkDev:inst7|q[10]'
+Slack : -0.459
+TNS   : -16.753
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.394
+TNS   : -17.127
+
+Type  : Slow 1100mV 0C Model Setup 'clk'
+Slack : -4.689
+TNS   : -153.389
+
+Type  : Slow 1100mV 0C Model Setup 'clkDev:inst7|q[10]'
+Slack : -2.310
+TNS   : -38.708
+
+Type  : Slow 1100mV 0C Model Hold 'clk'
+Slack : 0.377
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'clkDev:inst7|q[10]'
+Slack : 0.820
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clkDev:inst7|q[10]'
+Slack : -0.445
+TNS   : -16.529
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.394
+TNS   : -18.437
+
+Type  : Fast 1100mV 85C Model Setup 'clk'
+Slack : -3.557
+TNS   : -94.091
+
+Type  : Fast 1100mV 85C Model Setup 'clkDev:inst7|q[10]'
+Slack : -1.045
+TNS   : -17.143
+
+Type  : Fast 1100mV 85C Model Hold 'clk'
+Slack : 0.199
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'clkDev:inst7|q[10]'
+Slack : 0.427
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clkDev:inst7|q[10]'
+Slack : -0.204
+TNS   : -3.363
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.089
+TNS   : -2.904
+
+Type  : Fast 1100mV 0C Model Setup 'clk'
+Slack : -2.931
+TNS   : -77.964
+
+Type  : Fast 1100mV 0C Model Setup 'clkDev:inst7|q[10]'
+Slack : -0.920
+TNS   : -14.635
+
+Type  : Fast 1100mV 0C Model Hold 'clk'
+Slack : 0.190
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'clkDev:inst7|q[10]'
+Slack : 0.384
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clkDev:inst7|q[10]'
+Slack : -0.139
+TNS   : -2.227
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.087
+TNS   : -2.824
+
+------------------------------------------------------------

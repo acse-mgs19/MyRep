@@ -1,0 +1,11 @@
+module rightRotate(input logic clk, en, output logic [3:0]r_current);
+
+logic [3:0] r_next;
+
+always_Comb 
+r_next = {r_current[0], r_current[3:1]};
+always_ff @ (posedge clk)
+if (en == 1'b1)
+r_current <= r_next;
+else
+r_current <= r_current;

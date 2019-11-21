@@ -1,0 +1,10 @@
+module clkDev ( input logic clk,
+					output logic divClk);
+    reg [25:0] count = 0;	
+	 always_ff @ (posedge clk) 
+	 begin
+        divClk <= (count == 200000-1);
+        count <= divClk ? 0 : count + 1;
+		  end
+		  
+endmodule

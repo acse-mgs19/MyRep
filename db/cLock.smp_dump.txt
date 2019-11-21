@@ -1,0 +1,16 @@
+
+State Machine - |Block2|SM1:inst9|fstate
+Name fstate.state6 fstate.state4 fstate.state5 fstate.state3 fstate.state2 fstate.state1 
+fstate.state1 0 0 0 0 0 0 
+fstate.state2 0 0 0 0 1 1 
+fstate.state3 0 0 0 1 0 1 
+fstate.state5 0 0 1 0 0 1 
+fstate.state4 0 1 0 0 0 1 
+fstate.state6 1 0 0 0 0 1 
+
+State Machine - |Block2|cLock:inst|fstate
+Name fstate.corr1_err0 fstate.corr0_err0_2 fstate.corr0_err1 fstate.corr0_err0 
+fstate.corr0_err0 0 0 0 0 
+fstate.corr0_err1 0 0 1 1 
+fstate.corr0_err0_2 0 1 0 1 
+fstate.corr1_err0 1 0 0 1 

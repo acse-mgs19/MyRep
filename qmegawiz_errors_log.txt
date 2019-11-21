@@ -1,0 +1,13 @@
+
+
+D:/Altera/Keypad/comb_lock (2)/comb_lock (2)/comb_lock/MyCountTL.v
+
+Dec 06 02AM:37:25>: The following design file, which has identical name but a different extension 
+from the specified variation file, already exists in the working directory:
+
+myCountTL.vhd
+
+This may create a conflict of design files and/or lead to undesirable side
+effects.
+
+Is it OK to continue file generation?
